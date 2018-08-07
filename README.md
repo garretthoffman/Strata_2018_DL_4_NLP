@@ -65,7 +65,7 @@ If you don't have or don't want to use Docker, you can follow these steps to set
 
 4. After the installation, create a new virtual environment, using this command.
 	```
-	$ conda create -n lstm
+	$ conda create -n dl4nlp
 	$ source activate venv
 	```
    
