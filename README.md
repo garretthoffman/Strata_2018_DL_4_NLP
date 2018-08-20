@@ -24,7 +24,7 @@ Download the pre-trained Twitter GloVe word vectors from [here](https://nlp.stan
 3. After cloning the repo to your machine, enter
 
     ```
-    docker build -t lstm_<image_type> -f ./dockerfiles/Dockerfile.<image_type> ./dockerfiles/
+    docker build -t strata_nlp_<image_type> -f ./dockerfiles/Dockerfile.<image_type> ./dockerfiles/
     ```
 
     where `<image_type>` is either `gpu` or `cpu`. (Note that, in order to run these files on your GPU, you'll need to have a compatible GPU, with drivers installed and configured properly [as described in TensorFlow's documentation](https://www.tensorflow.org/install/).)
@@ -32,7 +32,7 @@ Download the pre-trained Twitter GloVe word vectors from [here](https://nlp.stan
 4. Run the Docker image by entering
 
     ```
-    docker run -it -p 8888:8888 -v <path to repo>:/root lstm_<image_type>
+    docker run -it -p 8888:8888 -v <path to repo>:/root strata_nlp_<image_type>
     ```
 
     where `<image_type>` is either `gpu` or `cpu`, depending on the image you built in the last step.
@@ -65,7 +65,7 @@ If you don't have or don't want to use Docker, you can follow these steps to set
 
 4. After the installation, create a new virtual environment, using this command.
 	```
-	$ conda create -n dl4nlp
+	$ conda create -n strata_nlp
 	$ source activate venv
 	```
    
