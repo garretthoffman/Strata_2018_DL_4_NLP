@@ -1,6 +1,10 @@
 # Strata_2018_DL_4_NLP
 Slides and Code Tutorials for Strata Data 2018 Tutorial on Deep Learning Methodologies for Natural Language Processing
 
+## Notes
+
+For a code sample of RNNs with Attention check out [Taming Recurrent Neural Networks for Better Summarization](http://www.abigailsee.com/2017/04/16/taming-rnns-for-better-summarization.html) with links to the accompanying tensorflow implementation.
+
 ## Setup
 
 ### Download via Git
